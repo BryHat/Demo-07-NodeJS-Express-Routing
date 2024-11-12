@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Home Page  
 app.get('/', (request, response) => {  
-    response.status(200).json({ message: 'Homepage' });  
+    response.send('<h1>API Homepage by Bryan R. DelaCruz</h1>')
 });
 
 // Customers  
