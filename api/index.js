@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Home Page  
 app.get('/', (request, response) => {  
-    response.status(200).json({ message: 'API Homepage' });  
+    response.status(200).json({ message: 'Burat' });  
 });
 
 // Customers  
